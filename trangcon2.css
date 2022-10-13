@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-color:black;
+}
+.khung{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.ben-phai{
+    float: right;
+}
+.tim-kiem{
+    width: 250px;
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+}
+.nut-tim-kiem{
+    background-color: white;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+    padding: 5px;
+    margin-left: -5px;
+}
+nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    min-height: 300px;
+}
+footer .khung div{
+    float: left;
+}
+.cot-1, .cot-2, .cot-3, .cot-4, .cot-5{
+    width: 16%;
+}
+.link-tieu-de{
+    color: gainsboro;
+    display: block;
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.menu>a{
+    font-variant: small-caps;
+    color:gainsboro;
+    text-decoration: none;
+}
+.menu>a:visited{
+    color: gainsboro;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.caption{
+    color: orange;
+}
+

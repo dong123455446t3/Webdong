@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.khung{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.ben-phai{
+    float: right;
+}
+.tim-kiem{
+    width: 250px;
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+}
+.nut-tim-kiem{
+    background-color: white;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+    padding: 5px;
+    margin-left: -5px;
+}
+nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center; 
+}
+.san-pham .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color:gainsboro;
+}
+.san-pham img{
+    max-width: 95%;
+}
+li>a{
+    color: gainsboro;
+    border-bottom: 2px;
+    display: inline-table;
+    margin-left: 8px;
+
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    min-height: 300px;
+
+}
+footer .khung div{
+    float: left;
+}
+footer .menu a{
+    color:gainsboro;
+}
+.cot-1, .cot-2, .cot-3, .cot-4, .cot-5{
+    width: 16%;
+}
+.link-tieu-de{
+    color: gainsboro;
+    display: block;
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.caption{
+    color:orange;
+}
+.menu>a{
+    font-variant: small-caps;
+    color:gainsboro;
+    text-decoration: none;
+    background-color: gray;
+    margin-left: 10px;
+}
+.menu>a:visited{
+    color: gainsboro;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.hmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    height: 40px;
+}
+ul.menu>li>a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+    
+}
+ul.hmenu>li>a:hover{
+    color:red;
+    font-weight: bolder;
+}
+ul.hmenu>li{
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+ul.hmenu>li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orange;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+.sub-menu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: gainsboro;
+}
+.sub-menu>li>a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.fmenu{
+    color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
